@@ -26,7 +26,7 @@
 | GateServer     | 网关服务，处理登录/注册，负载均衡 |
 | ChatServer     | 聊天服务，消息转发与长连接管理    |
 | StatusServer   | 状态服务，维护服务负载与状态      |
-| VerifyServer   | 验证服务，用户身份校验            |
+| VerifyServerPython   | 验证服务，用户身份校验            |
 
 ### 3.2 关键技术
 1. **服务间通信**：基于 gRPC 实现跨服务调用，支持断线重连
